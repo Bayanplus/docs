@@ -10,7 +10,7 @@ const config = {
   tagline: "Bayanplus Offical Documentation",
   url: "https://docs.bayaplus.co",
   baseUrl: "/",
-  onBrokenLinks: "throw",
+  onBrokenLinks: "warn", // throw
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
   organizationName: "Bayanplus", // Usually your GitHub org/user name.
