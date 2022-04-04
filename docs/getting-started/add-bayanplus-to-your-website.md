@@ -12,3 +12,11 @@ The tracking script has `pid` parameter which has your project id and you must a
 <script defer pid="Your Project Id" src="https://cdn.bayanplus.co/bp.js"></script>
 ```
  
+> 💡 *Bayanplus will only accept tracking request that has project id parameter `pid` and are coming from the project exact domain and it is subdomains*
+
+## Automatic tracking
+
+All page views are **automatically tracked**, you don't need any extra configuration whatsoever, we send a new request anytime the URL changes. We track traditional websites that has many HTML pages and SPAs like React, Angular and Vue. 
+
+If you need custom event tracking like tracking button click or signup then definitely check out [custom event tracking](add-bayanplus-to-your-website.md)
+
