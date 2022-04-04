@@ -16,6 +16,13 @@ const config = {
   organizationName: "Bayanplus", // Usually your GitHub org/user name.
   projectName: "docusaurus", // Usually your repo name.
 
+  scripts: [
+    {
+      src: "https://cdn.bayanplus.co",
+      defer: true,
+      pid: "XXXX",
+    },
+  ],
   presets: [
     [
       "classic",
@@ -25,8 +32,7 @@ const config = {
           routeBasePath: "/",
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/0ss/docs",
         },
         blog: false,
         theme: {
@@ -39,9 +45,14 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        defaultMode: "dark",
+        disableSwitch: false,
+        respectPrefersColorScheme: true,
+      },
+
       navbar: {
         title: "Bayanplus",
-
         logo: {
           alt: "logo",
           src: "https://cdn.bayanplus.co/dark-logo.png",
