@@ -32,7 +32,7 @@ const config = {
           routeBasePath: "/",
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl: "https://github.com/0ss/docs",
+          //   editUrl: "https://github.com/0ss/docs",
         },
         blog: false,
         theme: {
@@ -62,9 +62,9 @@ const config = {
         items: [
           {
             type: "doc",
-            docId: "intro",
+            docId: "welcome",
             position: "left",
-            label: "Docs",
+            label: "Getting started",
           },
           {
             href: "https://github.com/bayanplus/docs",
@@ -79,10 +79,10 @@ const config = {
           {
             title: "Docs",
             items: [
-              {
-                label: "Tutorial",
-                to: "/docs/intro",
-              },
+              // {
+              //   label: "Tutorial",
+              //   to: "/docs/getting-started/intro",
+              // },
             ],
           },
           {
