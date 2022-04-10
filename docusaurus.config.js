@@ -14,11 +14,11 @@ const config = {
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
   organizationName: "Bayanplus", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  projectName: "docs", // Usually your repo name.
 
   scripts: [
     {
-      src: "https://cdn.bayanplus.co",
+      src: "https://cdn.bayanplus.co/bp.js",
       defer: true,
       pid: "XXXX",
     },
