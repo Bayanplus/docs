@@ -16,7 +16,5 @@ To help you get started quickly
 - [Add Bayanplus to your website](tutorial-basics/_category_.json) 
 - [Track custom events](tutorial-basics/_category_.json)
 - Integrate it with your favourite Javascript framework 
-  - 🖤 [Next.js](tutorial-basics/_category_.json) 
-  - 💙 [React.js](tutorial-basics/_category_.json) 
-  - 💚 [Vue.js](tutorial-basics/_category_.json) 
-
+  - 🖤 [Next.js](intergrations/nextjs) 
+  - 💙 [React.js](intergrations/reactjs) 
