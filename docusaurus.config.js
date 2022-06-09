@@ -15,12 +15,15 @@ const config = {
   favicon: "img/favicon.ico",
   organizationName: "Bayanplus", // Usually your GitHub org/user name.
   projectName: "docs", // Usually your repo name.
-
   scripts: [
     {
       src: "https://cdn.bayanplus.co/bp.js",
       defer: true,
       pid: "XXXX",
+    },
+    {
+      src: "https://cdn.splitbee.io/sb.js",
+      async: true,
     },
   ],
   presets: [
