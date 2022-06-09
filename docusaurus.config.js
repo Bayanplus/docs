@@ -24,6 +24,7 @@ const config = {
     {
       src: "https://cdn.splitbee.io/sb.js",
       async: true,
+     "data-token":"2E67ZOG8Z71V"
     },
   ],
   presets: [
