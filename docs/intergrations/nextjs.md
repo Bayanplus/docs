@@ -12,40 +12,25 @@ yarn add bayanplus-js
 ```
 
 ## Usage
+
 After you install it, you can start using it by calling `bayanplus.init()` and pass the `projectId` as a parameter to so bayanplus can recognize you project. After that **Bayanplus will track page views automatically** [see this](../getting-started/add-bayanplus-to-your-website.md#automatic-tracking)
-```javascript
-// /pages/_app.js
-import bayanplus from 'bayanplus-js'
-useEffect(() => {
-      bayanplus.init({
-        projectId: "xxxx",
-      })
-  }, [])
-return  <Component {...pageProps} />
-```
-## Tracking with localhost
-Bayanplus does not accept data coming from developemt enviroment, so if you are in development mode using something like `localhost:3000` it wouldn't work. However, you can bypass that by passing `trackLocalhost: true`
 
 ```javascript
 // /pages/_app.js
-import bayanplus from 'bayanplus-js'
-function MyApp({ Component, pageProps }) {
-
+import bayanplus from "bayanplus-js";
 useEffect(() => {
-      bayanplus.init({
-        projectId: "xxxx",
-        trackLocalhost: true,
-      })
-  }, [])
-  
-return  <Component {...pageProps} />
-}
-export default MyApp;
+  bayanplus.init({
+    projectId: "xxxx",
+    isDev: false, //  if you data set to `true` so your data won't be tracked in case you are in development mode
+  });
+}, []);
+return <Component {...pageProps} />;
 ```
 
 ## Sending custom events
+
 ```javascript
-import bayanplus from 'bayanplus-js'
+import bayanplus from "bayanplus-js";
 import { useState } from "react";
 
 export function SignupForm(props) {
@@ -54,7 +39,7 @@ export function SignupForm(props) {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Record custom event on submit
-    bayanplus("Signup to newsletter");
+    bayanplus.event("Signup to newsletter");
   };
 
   return (

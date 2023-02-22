@@ -1,8 +1,8 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require("prism-react-renderer/themes/github")
-const darkCodeTheme = require("prism-react-renderer/themes/dracula")
+const lightCodeTheme = require("prism-react-renderer/themes/github");
+const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -19,12 +19,7 @@ const config = {
     {
       src: "https://cdn.bayanplus.co/bp.js",
       defer: true,
-      pid: "XXXX",
-    },
-    {
-      src: "https://cdn.splitbee.io/sb.js",
-      async: true,
-     "data-token":"2E67ZOG8Z71V"
+      "data-pid": "XXXX",
     },
   ],
   presets: [
@@ -59,8 +54,8 @@ const config = {
         title: "Bayanplus",
         logo: {
           alt: "logo",
-          src: "https://cdn.bayanplus.co/dark-logo.png",
-          srcDark: "https://cdn.bayanplus.co/light-logo.png",
+          src: "https://cdn.bayanplus.co/logo.png",
+          srcDark: "https://cdn.bayanplus.co/logo.png",
           href: "https://bayanplus.co",
         },
         items: [
@@ -89,23 +84,7 @@ const config = {
               // },
             ],
           },
-          {
-            title: "Product",
-            items: [
-              {
-                label: "Features",
-                href: "https://bayanplus.co/features",
-              },
-              {
-                label: "Pricing",
-                href: "https://bayanplus.co/pricing",
-              },
-              {
-                label: "Privacy & Security",
-                href: "https://bayanplus.co/privacy-security",
-              },
-            ],
-          },
+
           {
             title: "More",
             items: [
@@ -115,7 +94,7 @@ const config = {
               },
               {
                 label: "Twitter",
-                href: "https://twitter.com/trybayanplus",
+                href: "https://twitter.com/getBayanplus",
               },
             ],
           },
@@ -127,6 +106,6 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
-}
+};
 
-module.exports = config
+module.exports = config;
