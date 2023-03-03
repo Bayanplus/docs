@@ -19,7 +19,7 @@ const config = {
     {
       src: "https://cdn.bayanplus.co/bp.js",
       defer: true,
-      "data-pid": "XXXX",
+      "data-pid": "xL3fodkb",
     },
   ],
   presets: [
