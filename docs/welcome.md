@@ -20,3 +20,5 @@ To help you get started quickly
 - Integrate it with your favourite Javascript framework
   - 🖤 [Next.js](intergrations/nextjs)
   - 💙 [React.js](intergrations/reactjs)
+  - 🤍 [SvelteKit](intergrations/sveltekit)
+  - 🧡 [Svelte](intergrations/svelte)
