@@ -33,7 +33,7 @@ bayanplus.init({
 bayanplus.event("Buy Book");
 ```
 
-To initilize `bayanplus-js` once in your app, you can do it in the top-level component. If you are using Vite, this will be inside `src/App.svelte` file by default.
+To initialize `bayanplus-js` once in your app, you can do it in the top-level component. If you are using Vite's default Svelte template, this will be inside `src/App.svelte` file by default.
 
 ```javascript
 <script>
